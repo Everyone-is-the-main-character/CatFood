@@ -3,12 +3,8 @@ Everyone is the main character
 
 ### 后端
 
-#### spring  demo合集：
-
-https://github.com/xkcoding/spring-boot-demo
-
-### 开源推荐
-
+#### 开源推荐
+- `spring demo合集`：https://github.com/xkcoding/spring-boot-demo
 - `JustAuth`：史上最全的整合第三方登录的开源库，https://github.com/justauth/JustAuth
 - `Mica`：SpringBoot 微服务高效开发工具集，https://github.com/lets-mica/mica
 - `awesome-collector`：https://github.com/P-P-X/awesome-collector
