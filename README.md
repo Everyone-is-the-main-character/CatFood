@@ -14,7 +14,7 @@ Everyone is the main character
 ### 前端
 
 - `从零开始学前端，做一名精致优雅的前端工程师。`：https://github.com/qianguyihao/Web.git 2021-05-14
-
 - `【尚硅谷】Vue源码解析之虚拟DOM和diff算法]`：https://www.bilibili.com/video/BV1v5411H7gZ?p=1 2021-05-15
-
-- `[原来redux的原理如此简单`：https://juejin.cn/post/6959802564770529287 2021-05-16
+- `原来redux的原理如此简单`：https://juejin.cn/post/6959802564770529287 2021-05-16
+- `谈一谈Javascript内存释放那点事`：https://blog.csdn.net/taoerchun/article/details/51394525
+- `如何让你的代码更优雅`：https://juejin.cn/post/6962347960340316173?utm_source=gold_browser_extension#heading-23
