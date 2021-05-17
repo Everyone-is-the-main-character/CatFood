@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            .div1, .div2 {
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Hello World</h1>
+        </div>
+        <div class="div1">div1</div>
+        <div class="div2">div2</div>
+        <script>
+            window.onload = function() {
+                function Test(dom) {
+                    this.dom = dom
+                    this.str = ''
+                    this.A = function() {
+                        this.str = '345'
+                        console.log(2)
+                    }
+                    const self = this
+                    this.timer = null
+                    this.timer = window.setInterval(self.A, 1000)
+                    // this.dom.addEventListener('click', self.A, false)
+                }
+
+                // Test.prototype.destroy = function () {
+                //     var self = this;
+                //     this.dom.removeEventListener('click',self.A, false);
+                // }
+
+                Test.prototype.destroy = function() {
+                    var self = this;
+                    window.clearInterval(this.timer)
+                }
+
+                const div1 = document.getElementsByClassName('div1')[0]
+                let myTest = new Test(div1)
+
+                const div2Obj = document.getElementsByClassName('div2')[0];
+                div2Obj.onclick = function () {
+                    myTest.destroy();
+                    myTest = null;
+                    console.log(myTest)
+                }
+            }
+        </script>
+    </body>
+</html>
