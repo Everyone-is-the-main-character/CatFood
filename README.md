@@ -20,6 +20,9 @@ Everyone is the main character
 - `原来redux的原理如此简单`：https://juejin.cn/post/6959802564770529287 2021-05-16
 - `谈一谈Javascript内存释放那点事`：https://blog.csdn.net/taoerchun/article/details/51394525
 - `如何让你的代码更优雅`：https://juejin.cn/post/6962347960340316173?utm_source=gold_browser_extension#heading-23
+- `谈一谈Javascript内存释放那点事`：https://blog.csdn.net/taoerchun/article/details/51394525 2021-05-16
+- `如何让你的代码更优雅`：https://juejin.cn/post/6962347960340316173?utm_source=gold_browser_extension#heading-23 2021-05-16
+- `Vue基础，和基础原理部分`：https://juejin.cn/post/6961222829979697165 2021-05-14
 
 #### 前端代办
 

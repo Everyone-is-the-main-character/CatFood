@@ -76,16 +76,3 @@ export function reactive (raw) {
     })
 }
 
-
-
-const App = {
-    render(context) {
-        // 构建试图
-    },
-    setup() {
-        const state = reactive({
-            count: 0
-        })
-        return { state }
-    }
-}
