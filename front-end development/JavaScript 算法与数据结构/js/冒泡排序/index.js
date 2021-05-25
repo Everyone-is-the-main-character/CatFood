@@ -12,7 +12,7 @@ let BubbleSort = function (arr, flag = false) {
     }
     return flag ? arr.reverse() : arr;
 };
-let arr = [0, -1, 9, 89, 782, 3, 7, 90, 9, 1];
-const res = BubbleSort(arr);
+let arr2 = [0, -1, 9, 89, 782, 3, 7, 90, 9, 1];
+const res = BubbleSort(arr2);
 console.log(res);
 //# sourceMappingURL=index.js.map

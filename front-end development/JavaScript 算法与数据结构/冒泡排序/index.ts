@@ -18,6 +18,6 @@ let BubbleSort = function(
     return flag ? arr.reverse() : arr
 }
 
-let arr: number[] = [0, -1, 9, 89, 782, 3, 7, 90, 9, 1]
-const res = BubbleSort(arr)
+let arr2: number[] = [0, -1, 9, 89, 782, 3, 7, 90, 9, 1]
+const res = BubbleSort(arr2)
 console.log(res)
